@@ -5,7 +5,7 @@ After=network-online.target
 
 [Service]
 Type=simple
-ExecStart=/home/pi/broadcast
+ExecStart=broadcast
 Restart=always
 RestartSec=5
 
